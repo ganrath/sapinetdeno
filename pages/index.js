@@ -1,7 +1,7 @@
 import React from "react";
 import { StoreProvider, StoreConsumer } from "../components/Store/index";
-import MainApp from "../Components/MainApp";
-import Header from "../Components/Header";
+
+import Header from "../Components/header";
 
 import Filter from "../components/List/Filter";
 import ListDetails from "../components/List/ListDetails";
