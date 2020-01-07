@@ -1,10 +1,10 @@
 import React from "react";
 import { StoreProvider, StoreConsumer } from "../components/Store/index";
 
-import Header from "../Components/header";
+import Header from "../components/header";
 
-import Filter from "../components/List/Filter";
-import ListDetails from "../components/List/ListDetails";
+import Filter from "../components/List/filter";
+import ListDetails from "../components/List/listDetails";
 import "../style.css";
 const Home = () => (
   <div>

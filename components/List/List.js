@@ -1,5 +1,5 @@
 import React, { useState, useContext } from "react";
-import TextDetails from "./TextDetails";
+import TextDetails from "./textDetails";
 function List(props) {
   const findYears = date => {
     var present = new Date();

@@ -1,6 +1,6 @@
 import React, { useState, useContext } from "react";
 import { StoreContext } from "../Store/index";
-import List from "./List";
+import List from "./list";
 function ListDetails() {
   const state = useContext(StoreContext);
   return (
