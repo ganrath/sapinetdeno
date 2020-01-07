@@ -87,21 +87,12 @@ function reducer(state, action) {
       return state;
   }
 }
-// const fetchData = async () => {
-//   let response = await fetch(url);
-//   let data = await response.json();
-//   return data.results;
-// };
-// function fetchData() {
-//   return new Promise(function(res, rej) {
-//     res("initResolve");
-//   });
-// }
+
 export function StoreProvider({ children }) {
   let url = "https://rickandmortyapi.com/api/character/";
-  // let url = "https://jsonplaceholder.typicode.com/todos/";
+
   const [state, dispatch] = useReducer(reducer, initialState);
-  // let daata = [{ name: "Rick Sanchez" }, "Volvo", "BMW"];
+
   useEffect(() => {
     async function fetchData() {
       let response = await fetch(url);

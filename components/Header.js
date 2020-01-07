@@ -5,19 +5,7 @@ function Header() {
   return (
     <div>
       <header>
-        <img src="https://img1a.flixcart.com/www/linchpin/fk-cp-zion/img/flipkart-plus_4ee2f9.png" />
-        <ul className="list-link">
-          <li>
-            <Link href="/home">
-              <a>Home</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/about">
-              <a>about</a>
-            </Link>
-          </li>
-        </ul>
+        <img src="https://www.publicissapient.com/content/dam/ps-rebrand/brand/ps-logo-NEW.svg" />
       </header>
     </div>
   );
