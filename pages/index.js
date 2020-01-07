@@ -5,7 +5,7 @@ import Header from "../Components/Header";
 import home from "./home";
 import Filter from "../components/List/Filter";
 import ListDetails from "../components/List/ListDetails";
-import "./style.css";
+import "../style.css";
 const Home = () => (
   <div>
     <StoreProvider>
